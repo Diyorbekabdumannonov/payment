@@ -40,9 +40,10 @@
                                             <div class="row mt-5">
                                                 <div class="col-lg-10 me-auto d-block">
                                                     <div class="acc-control">
-                                                        <button class="openPaymentDropdown custom_btn btn"
+                                                        <button class="openPaymentDropdown fst custom_btn btn d-flex align-items-center justify-content-between w-100"
                                                             type="button">
-                                                            Account information
+                                                            <span>Account information</span>
+                                                            <img src="./images/checkimg.png" class="check d-none">
                                                         </button>
                                                         <div class="dropdown 1 d-inline-block">
                                                             <input type="text" class="w-100 inp"
@@ -51,20 +52,23 @@
                                                             <input type="text" class="w-100 inp"
                                                                 placeholder="Last name(Autofilled from previous info)"
                                                                 name="FirtsName" id="accountInfo">
-                                                            <input type="text" class="w-100 inp"
+                                                            <input type="email" class="w-100 inp"
                                                                 placeholder="Email name(Autofilled from previous info)"
                                                                 name="FirtsName" id="accountInfo">
-                                                            <input type="text" class="w-100 inp" placeholder="Password"
-                                                                name="FirtsName" id="accountInfo">
+                                                            <input type="password" class="w-100 inp"
+                                                                placeholder="Password" name="FirtsName"
+                                                                id="accountInfo">
                                                             <button type="button" id="shippingBtn"
                                                                 class="btn btn-light rounded-xl mb-4 text-uppercase fw-bold mt-5 btn-xl next">Continue
                                                                 to shipping</button>
                                                         </div>
                                                     </div>
                                                     <div class="acc-control">
-                                                        <button class="openPaymentDropdown custom_btn btn"
+                                                        <button class="openPaymentDropdown snd custom_btn btn d-flex align-items-center justify-content-between w-100"
                                                             type="button">
-                                                            Shipping addres
+                                                           <span> Shipping addres</span>
+                                                           <img src="./images/plus.png" alt="" class="plus">
+                                                            <img src="./images/checkimg.png" class="check d-none">
                                                         </button>
                                                         <div class="dropdown 2 d-none">
                                                             <input type="text" class="w-100 inp"
@@ -87,9 +91,11 @@
                                                                 <label class="form-check-label text-start">
                                                                     <input class="form-check-input" type="checkbox"
                                                                         name="remember">
-                                                                    <i>I agree to recieve text messages from Bailey's
-                                                                        Bento and its service providers regarding
-                                                                        delivery </i>
+                                                                    <h6><i>I agree to recieve text messages from
+                                                                            Bailey's
+                                                                            Bento and its service providers regarding
+                                                                            delivery </i>
+                                                                    </h6>
                                                                 </label>
                                                             </div>
                                                             <button type="button"
@@ -100,25 +106,28 @@
                                                         </div>
                                                     </div>
                                                     <div class="acc-control">
-                                                        <button class="openPaymentDropdown custom_btn btn"
+                                                        <button class="openPaymentDropdown thr custom_btn btn d-flex align-items-center justify-content-between w-100"
                                                             type="button">
-                                                            Payment details
+                                                            <span>Payment details</span>
+                                                            <img src="./images/plus.png" alt="" class="plus">
+                                                            <img src="./images/checkimg.png" class="check d-none">
                                                         </button>
                                                         <div class="d-none 3 dropdown">
                                                             <input type="text" class="w-100 inp"
                                                                 placeholder="Card Number" name="address"
-                                                                id="accountInfo">
+                                                                id="payInfo">
                                                             <input type="text" class="w-100 inp"
                                                                 placeholder="Expiry Date" name="address"
-                                                                id="accountInfo">
+                                                                id="payInfo">
                                                             <input type="text" class="w-100 inp mb-5" placeholder="CVC:"
-                                                                name="address" id="accountInfo">
+                                                                name="address" id="payInfo">
                                                         </div>
                                                     </div>
                                                     <div class="d-flex advertisement">
                                                         <div>
                                                             <h2>Have another dog?</h2>
-                                                            <h5>You can add more dogs on your account pga after you've checked out</h5>
+                                                            <h5>You can add more dogs on your account pga after you've
+                                                                checked out</h5>
                                                         </div>
                                                         <img src="./images/new_dog.png" alt="">
                                                     </div>
@@ -187,7 +196,7 @@
                                                 charged
                                                 every 2 weeks for the full bento plan subscription.
                                                 You can pause, change or cancel anytime.</p>
-                                                <button class="checkout" type="button">Checkout</button>
+                                            <button class="checkout" type="button">Checkout</button>
                                         </div>
                                     </div>
                                 </div>
