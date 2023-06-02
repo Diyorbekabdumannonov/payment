@@ -11,13 +11,25 @@ body {
     color: #000000;
     font-size: 15px;
     overflow-x: hidden;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Carlito', sans-serif;
     color: #303453 !important;
+}
+
+.text-36 {
+    font-size: 36px !important;
 }
 
 .payment {
     color: #303453 !important;
     width: 450px;
+    border: none;
+    margin-top: -10px !important;
+}
+
+.hr {
+    width: 1px;
+    height: 100%;
+    background-color: #ccc;
 }
 
 .payment h5 {
@@ -25,22 +37,21 @@ body {
 }
 
 .payment .title {
-    font-weight: 400;
-    font-size: 20px;
+    font-weight: 500;
+    font-size: 26px;
     margin-left: 36px;
 }
 
 .payment .subtitle {
     font-style: italic;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 25px;
     text-align: left;
     margin-left: 48px;
 }
 
 .all_buttons {
     width: 100%;
-    max-width: 985px;
     margin: 0 auto;
 }
 
@@ -51,8 +62,8 @@ body {
     background-color: white;
     outline: none;
     color: #3f4f5f !important;
-    font-size: 32px !important;
-    font-weight: 600 !important;
+    font-size: 37px !important;
+    font-weight: 700 !important;
     text-align: start;
     width: 100%;
     text-align: left !important;
@@ -77,8 +88,9 @@ body {
 .inp {
     border: none;
     border-bottom: 1px solid gray;
-    margin-top: 20px;
+    margin-top: 26px;
     outline: none !important;
+    font-weight: 500;
 }
 
 .btn-xl {
@@ -112,6 +124,28 @@ body {
     align-items: center;
 }
 
+.advertisement h2 {
+    font-size: 29px !important;
+}
+
+.advertisement h5 {
+    font-size: 22px !important;
+}
+
+.payment h2.text-start {
+    font-size: 44px !important;
+}
+
+.payment h2 {
+    font-weight: 500;
+    font-size: 26px;
+}
+
+.payment div.mt-2 h5 {
+    font-size: 29px !important;
+    font-weight: 700;
+}
+
 .car {
     width: 64px;
     height: auto;
@@ -134,9 +168,13 @@ body {
     height: auto;
 }
 
+.next {
+    font-size: 20px !important;
+}
+
 .dropdown ::placeholder {
     color: #303453 !important;
-    font-size: 20px !important;
+    font-size: 26px !important;
     font-weight: 500 !important;
 }
 
