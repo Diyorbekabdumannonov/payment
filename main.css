@@ -11,12 +11,13 @@ body {
     color: #000000;
     font-size: 15px;
     overflow-x: hidden;
-    font-family: 'Carlito', sans-serif;
+font-family: 'Quicksand', sans-serif !important;
     color: #303453 !important;
 }
 
-.text-36 {
-    font-size: 36px !important;
+.text-26 {
+    font-size: 26px !important;
+    font-weight: 700 !important;
 }
 
 .payment {
@@ -37,15 +38,15 @@ body {
 }
 
 .payment .title {
-    font-weight: 500;
-    font-size: 26px;
+    font-weight: 400;
+    font-size: 19px;
     margin-left: 36px;
 }
 
 .payment .subtitle {
     font-style: italic;
     font-weight: 400;
-    font-size: 25px;
+    font-size: 18px;
     text-align: left;
     margin-left: 48px;
 }
@@ -62,7 +63,7 @@ body {
     background-color: white;
     outline: none;
     color: #3f4f5f !important;
-    font-size: 37px !important;
+    font-size: 27px !important;
     font-weight: 700 !important;
     text-align: start;
     width: 100%;
@@ -90,7 +91,8 @@ body {
     border-bottom: 1px solid gray;
     margin-top: 26px;
     outline: none !important;
-    font-weight: 500;
+    font-weight: 400;
+    font-size: 19px;
 }
 
 .btn-xl {
@@ -104,12 +106,12 @@ body {
 }
 
 .discount h2 {
-    font-size: 22px;
-    font-weight: 400;
+    font-size: 21px;
+    font-weight: 400 !important;
 }
 
 .footer-title {
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 400;
 }
 
@@ -122,18 +124,21 @@ body {
     padding: 20px;
     text-align: left !important;
     align-items: center;
+    border: 1px solid #ccc;
 }
 
 .advertisement h2 {
-    font-size: 29px !important;
+    font-size: 21px !important;
+    font-weight: 700;
 }
 
 .advertisement h5 {
-    font-size: 22px !important;
+    font-size: 19px !important;
 }
 
 .payment h2.text-start {
-    font-size: 44px !important;
+    font-size: 27px !important;
+    font-weight: 700 !important;
 }
 
 .payment h2 {
@@ -142,7 +147,7 @@ body {
 }
 
 .payment div.mt-2 h5 {
-    font-size: 29px !important;
+    font-size: 21px !important;
     font-weight: 700;
 }
 
@@ -169,24 +174,29 @@ body {
 }
 
 .next {
-    font-size: 20px !important;
+    font-size: 19px !important;
+    font-weight: 700;
 }
 
 .dropdown ::placeholder {
     color: #303453 !important;
-    font-size: 26px !important;
-    font-weight: 500 !important;
+    font-size: 19px !important;
+    font-weight: 400 !important;
 }
 
 .checkout {
     width: 100%;
     text-transform: uppercase;
-    font-size: 18px;
+    font-size: 26px;
     background-color: #303453;
     color: white;
     font-weight: bold;
     border: none;
     padding: 16px;
+}
+
+.form-check {
+    font-size: 18px !important;
 }
 
 @media (max-width:500px) {
