@@ -12,10 +12,11 @@ body {
     font-size: 15px;
     overflow-x: hidden;
     font-family: Arial, Helvetica, sans-serif;
+    color: #303453 !important;
 }
 
 .payment {
-    color: #3f4f5f;
+    color: #303453 !important;
     width: 450px;
 }
 
@@ -55,6 +56,11 @@ body {
     text-align: start;
     width: 100%;
     text-align: left !important;
+}
+
+.plus {
+    font-size: 16px;
+    font-weight: 600;
 }
 
 .acc-control {
@@ -103,6 +109,12 @@ body {
     background-color: #fff8dc;
     padding: 20px;
     text-align: left !important;
+    align-items: center;
+}
+
+.car {
+    width: 64px;
+    height: auto;
 }
 
 .col-lg-10 {
@@ -115,6 +127,11 @@ body {
     color: #303453 !important;
     font-size: 20px !important;
     font-weight: 500 !important;
+}
+
+.dog {
+    width: 120px;
+    height: auto;
 }
 
 .dropdown ::placeholder {
