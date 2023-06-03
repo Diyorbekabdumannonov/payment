@@ -139,6 +139,7 @@ font-family: 'Quicksand', sans-serif !important;
 .payment h2.text-start {
     font-size: 27px !important;
     font-weight: 700 !important;
+    margin-top: 30px !important;
 }
 
 .payment h2 {
