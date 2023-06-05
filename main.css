@@ -6,12 +6,19 @@ header {
     max-width: 300px;
 }
 
+a.innner_previous_btn,
+a.innner_previous_btn2 {
+    position: absolute;
+    top: 20px;
+    left: 20%;
+}
+
 body {
     background-color: #ffffff;
     color: #000000;
     font-size: 15px;
     overflow-x: hidden;
-font-family: 'Quicksand', sans-serif !important;
+    font-family: 'Quicksand', sans-serif !important;
     color: #303453 !important;
 }
 
@@ -200,7 +207,16 @@ font-family: 'Quicksand', sans-serif !important;
     font-size: 18px !important;
 }
 
-@media (max-width:500px) {
+.back_page {
+    border: none;
+    background-color: transparent;
+}
+
+.unvisible {
+    opacity: 0;
+}
+
+@media (max-width:576px) {
     .body.py-5 {
         padding-top: 0px !important;
     }
@@ -219,5 +235,11 @@ font-family: 'Quicksand', sans-serif !important;
 
     .subtitle {
         margin-left: 0 !important;
+    }
+
+    a.innner_previous_btn,
+    a.innner_previous_btn2 {
+        top: 10px;
+        left: 15px;
     }
 }
