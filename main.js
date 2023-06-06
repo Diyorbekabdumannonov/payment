@@ -32,6 +32,7 @@ jQuery(function ($) {
           const dropdown = $(`.${getIndex + 1}`);
           $(".dropdown").addClass("d-none");
           dropdown[0].className = `d-inline-block dropdown ${getIndex + 1}`;
+          $("a.innner_previous_btn").removeClass("d-none");
         }
       }
       if (getIndex == 2) {
@@ -47,6 +48,8 @@ jQuery(function ($) {
           const dropdown = $(`.${getIndex + 1}`);
           $(".dropdown").addClass("d-none");
           dropdown[0].className = `d-inline-block dropdown ${getIndex + 1}`;
+          $("a.innner_previous_btn2").removeClass("d-none");
+          $("a.innner_previous_btn").addClass("d-none");
         }
       }
       if (getIndex == 3) {
