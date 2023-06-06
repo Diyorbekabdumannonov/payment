@@ -222,4 +222,16 @@ jQuery(function ($) {
     $(".dropdown.2").removeClass("d-none");
     $("a.innner_previous_btn2").addClass("d-none");
   });
+
+  $(".dsc").click(function (e) {
+    const dropdown = $(".dscDropdown");
+    console.log(dropdown[0]);
+    if (dropdown[0].classList.contains("d-none")) {
+      $(".dscDropdown").removeClass("d-none");
+      $(".dscDropdown").addClass("d-flex");
+    } else {
+      $(".dscDropdown").removeClass("d-flex");
+      $(".dscDropdown").addClass("d-none");
+    }
+  });
 });
