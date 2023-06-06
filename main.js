@@ -234,4 +234,8 @@ jQuery(function ($) {
       $(".dscDropdown").addClass("d-none");
     }
   });
+  $("#apply").click(function () {
+    $(".dscDropdown").removeClass("d-flex");
+    $(".dscDropdown").addClass("d-none");
+  });
 });
