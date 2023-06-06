@@ -40,11 +40,7 @@ body {
     background-color: #ccc;
 }
 
-.payment h5 {
-    font-weight: 400;
-}
-
-.payment .title {
+.payment .title h3 {
     font-weight: 400;
     font-size: 19px;
     margin-left: 36px;
@@ -139,12 +135,12 @@ body {
     font-weight: 700;
 }
 
-.advertisement h5 {
+.advertisement h2 {
     font-size: 19px !important;
 }
 
-.payment h2.text-start {
-    font-size: 27px !important;
+.payment h1.text-start {
+    font-size: 32px !important;
     font-weight: 700 !important;
     margin-top: 30px !important;
 }
@@ -154,7 +150,7 @@ body {
     font-size: 26px;
 }
 
-.payment div.mt-2 h5 {
+.payment div.mt-2 h2 {
     font-size: 21px !important;
     font-weight: 700;
 }
