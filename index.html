@@ -76,13 +76,13 @@
                                                                 id="accountInfo">
                                                             <input type="text" class="w-100 inp" placeholder="Address"
                                                                 name="address" id="accountInfo">
-                                                            <input type="text" class="w-100 inp"
+                                                            <input type="number" class="w-100 inp"
                                                                 placeholder="Unit number (optional)" name="address"
                                                                 id="accountInfo">
                                                             <input type="text" class="w-100 inp"
                                                                 placeholder="Delivery Instructions (Optional)"
                                                                 name="address" id="accountInfo">
-                                                            <input type="text" class="w-100 inp"
+                                                            <input type="number" class="w-100 inp"
                                                                 placeholder="Mobile number" name="address"
                                                                 id="accountInfo">
                                                             <p class="text-start">Estimated delivery by (today's
@@ -105,13 +105,11 @@
                                                                 id="paymentBtn">Continue
                                                                 to
                                                                 payment</button>
+                                                            <a href="#" class="innner_previous_btn"><img
+                                                                    src="images/backicon.png" alt="iconimg"></a>
                                                         </div>
-                                                        <a href="#" class="innner_previous_btn"><img
-                                                                src="images/backicon.png" alt="iconimg"></a>
                                                     </div>
                                                     <div class="acc-control">
-                                                        <a href="#" class="innner_previous_btn2"><img
-                                                                src="images/backicon.png" alt="iconimg"></a>
                                                         <button
                                                             class="openPaymentDropdown thr custom_btn btn d-flex align-items-center justify-content-between w-100"
                                                             type="button">
@@ -120,12 +118,16 @@
                                                             <img src="./images/checkimg.png" class="check d-none">
                                                         </button>
                                                         <div class="d-none 3 dropdown">
-                                                            <input type="text" class="w-100 inp"
+                                                            <a href="#" class="innner_previous_btn2"><img
+                                                                    src="images/backicon.png" alt="iconimg"></a>
+                                                            <input type="number" class="w-100 inp"
                                                                 placeholder="Card Number" name="address" id="payInfo">
-                                                            <input type="text" class="w-100 inp" style="font-style: italic;"
-                                                                placeholder="Expiry Date" name="address" id="payInfo">
-                                                            <input type="text" class="w-100 inp mb-5" placeholder="CVC:"
-                                                                name="address" id="payInfo">
+                                                            <input type="text" class="w-100 inp"
+                                                                style="font-style: italic;" placeholder="Expiry Date"
+                                                                name="address" id="payInfo"
+                                                                onfocus="(this.type='date')">
+                                                            <input type="number" class="w-100 inp mb-5"
+                                                                placeholder="CVC:" name="address" id="payInfo">
                                                         </div>
                                                     </div>
                                                     <div class="d-flex advertisement">
