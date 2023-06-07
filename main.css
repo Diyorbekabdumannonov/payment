@@ -27,6 +27,16 @@ body {
     font-weight: 700 !important;
 }
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
 .dscDropdown {
     display: flex;
     flex-direction: column;
