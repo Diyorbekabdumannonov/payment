@@ -36,6 +36,17 @@ body {
 
 .dscDropdown p {
     margin-bottom: 12px;
+    font-weight: 600;
+}
+
+.container {
+    max-width: 1140px !important;
+}
+
+@media (max-width:1000px){
+    .container {
+        max-width: inherit !important;
+    }
 }
 
 .dscDropdown button {
@@ -44,7 +55,7 @@ body {
     font-size: 15px;
     background-color: #303453;
     color: white;
-    font-weight: normal;
+    font-weight: 600;
     border: none;
     margin-top: 19px;
     padding: 8px 20px;
@@ -64,14 +75,14 @@ body {
 }
 
 .payment .title h3 {
-    font-weight: 400;
+    font-weight: 600;
     font-size: 19px;
     margin-left: 36px;
 }
 
 .payment .subtitle {
     font-style: italic;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 18px;
     text-align: left;
     margin-left: 48px;
@@ -117,7 +128,7 @@ body {
     border-bottom: 1px solid gray;
     margin-top: 26px;
     outline: none !important;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 19px;
 }
 
@@ -133,12 +144,12 @@ body {
 
 .discount h2 {
     font-size: 21px;
-    font-weight: 400 !important;
+    font-weight: 600 !important;
 }
 
 .footer-title {
     font-size: 17px;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 .discount {
@@ -209,7 +220,7 @@ body {
 .dropdown ::placeholder {
     color: #303453 !important;
     font-size: 19px !important;
-    font-weight: 400 !important;
+    font-weight: 600 !important;
 }
 
 .checkout {

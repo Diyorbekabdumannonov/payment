@@ -36,7 +36,7 @@
                                     <div class="inner_tab_content">
                                         <div class="all_buttons">
                                             <div class="row mt-5 d-xl-flex justify-content-between">
-                                                <div class="col-xl-6 d-block">
+                                                <div class="col-xl-6 col-md-8 m-auto d-block">
                                                     <div class="acc-control">
                                                         <button
                                                             class="openPaymentDropdown fst custom_btn btn d-flex align-items-center justify-content-between w-100"
@@ -78,13 +78,15 @@
                                                                 name="address" id="accountInfo">
                                                             <input type="number" class="w-100 inp"
                                                                 placeholder="Unit number (optional)" name="address"
-                                                                id="accountInfo">
+                                                                id="accountInfo"
+                                                                onkeypress='return event.charCode >= 48 && event.charCode <= 57'>
                                                             <input type="text" class="w-100 inp"
                                                                 placeholder="Delivery Instructions (Optional)"
                                                                 name="address" id="accountInfo">
                                                             <input type="number" class="w-100 inp"
                                                                 placeholder="Mobile number" name="address"
-                                                                id="accountInfo">
+                                                                id="accountInfo"
+                                                                onkeypress='return event.charCode >= 48 && event.charCode <= 57'>
                                                             <p class="text-start">Estimated delivery by (today's
                                                                 date+7
                                                                 days) <br> We will contact you for more details</p>
@@ -121,7 +123,8 @@
                                                             <a href="#" class="innner_previous_btn2"><img
                                                                     src="images/backicon.png" alt="iconimg"></a>
                                                             <input type="number" class="w-100 inp"
-                                                                placeholder="Card Number" name="address" id="payInfo">
+                                                                placeholder="Card Number" name="address" id="payInfo"
+                                                                onkeypress='return event.charCode >= 48 && event.charCode <= 57'>
                                                             <input type="text" class="w-100 inp"
                                                                 style="font-style: italic;" placeholder="Expiry Date"
                                                                 name="address" id="payInfo"
@@ -166,7 +169,8 @@
                                                                 <h3>$0.00</h3>
                                                             </div>
                                                             <h4 class="subtitle">Delivery frequency: Every 2 week</h4>
-                                                            <div class="d-flex mt-2 align-items-center" style="margin-bottom: -10px;">
+                                                            <div class="d-flex mt-2 align-items-center"
+                                                                style="margin-bottom: -10px;">
                                                                 <img src="./images/car.png" alt="car" class="car">
                                                                 <h4 class="subtitle mb-0 ms-3 mt-3">Shipped & billed
                                                                     every 2
@@ -184,7 +188,8 @@
                                                             </div>
                                                             <div class="dscDropdown d-none">
                                                                 <p>If you have a coupon code, please apply it below.</p>
-                                                                <input class="inp w-100 mt-0" type="text" placeholder="Coupon code">
+                                                                <input class="inp w-100 mt-0" type="text"
+                                                                    placeholder="Coupon code">
                                                                 <button type="button" id="apply">APPLY COUPON</button>
                                                             </div>
                                                             <hr>
